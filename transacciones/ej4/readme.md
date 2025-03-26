@@ -1,12 +1,12 @@
 Ejercicio 4: Proceso de venta con actualización de inventario y registro de ventas
 
 Base de datos:
-#Tabla Productos
+Tabla Productos
 idProducto (INT, PK)
 nombre (VARCHAR)
 stock (INT)
 
-#Tabla Ventas
+Tabla Ventas
 idVenta (INT, PK)
 idProducto (INT, FK)
 cantidad (INT)

@@ -8,7 +8,7 @@ Ejercicios sobre transacciones en MySQL. Incluye:
 
 Explicación general
 - Cada procedimiento inicia con START TRANSACTION.
-- Se utilizan SELECT ... INTO para obtener valores de la base de datos.
+- Se utilizan variables almacenar valores de la base de datos y utilizarlos.
 - Se emplean estructuras IF ... THEN para verificar condiciones.
 - Si ocurre un problema, se ejecuta ROLLBACK y se lanza un mensaje de error con SIGNAL SQLSTATE '45000'.
-- Si todo está correcto, se realizan las actualizaciones necesarias y se confirma con COMMIT.
+- Si todo está correcto se confirma con COMMIT.
